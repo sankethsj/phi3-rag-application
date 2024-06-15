@@ -51,3 +51,11 @@ def query_collection(collection: chromadb.Collection, query_text: str):
     )
 
     return query_results
+
+
+def generate_context(query_result: dict):
+    context = ""
+    for doc in query_result["documents"]:
+        for i in doc:
+            context += i
+    return context
