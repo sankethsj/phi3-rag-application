@@ -24,7 +24,13 @@ This repository contains a RAG application that reads PDF files, generates embed
 
 ## Installation
 
+**Note:** On first installation, this script will download the necessary NLTK stopwords, the NLP embedding model, and the large language model (LLM). As a result, the initial execution may take longer than subsequent runs.
+
 To get started with the RAG application, follow these steps:
+
+1. **Download Ollama on to your desktop**:
+
+    This is required to run LLM model locally. [Download Ollama](https://ollama.com/download)
 
 1. **Clone the repository**:
 
@@ -48,9 +54,17 @@ To get started with the RAG application, follow these steps:
 
 ## Usage
 
-### Run the notebook
+### Run the script
 
-1. Open RAG-Workbook.ipynb and run all cells.
+```bash
+python main.py
+```
+
+### (Optional) Run the notebook
+
+This is more interactive, you can see what's going in each step.
+
+1. Open [RAG-Workbook.ipynb](/RAG-Workbook.ipynb) and run all cells.
 
 ## Contributing
 
