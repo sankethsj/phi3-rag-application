@@ -94,7 +94,7 @@ pillow==10.4.0
 platformdirs==4.3.3
 posthog==3.6.5
 prompt_toolkit==3.0.47
-protobuf==4.25.4
+protobuf==4.25.8
 psutil==6.0.0
 pure_eval==0.2.3
 pyasn1==0.6.1
